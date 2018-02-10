@@ -1,0 +1,41 @@
+html {
+
+}
+
+body {
+    /*background: url('img/setwalls.jpg') no-repeat center;
+    background-size: cover;
+    height: 100vh;*/
+    padding: 0;
+    margin: 0;
+}
+
+/*#setbg {
+    width: 70vw;
+    display: block;
+    margin: 25vh auto 0;
+}*/
+
+.parallax {
+    margin-top: -5%;
+    position: relative;
+    display: block;
+    width: 100vw;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.parallax img {
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    width: 100vw;
+}
+
+#set {
+    z-index: 1;
+}
+
+#frame {
+    z-index: 0;
+}
